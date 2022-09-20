@@ -14,3 +14,7 @@ def test_sum_two_positive():
 def test_sum_two_negative():
     """Negative test of sum_two function"""
     assert sample.sum_two(-2) == 0
+
+def test_sum_two_zero():
+    """Negative test of sum_two function"""
+    assert sample.sum_two(0) == 2
